@@ -1,0 +1,18 @@
+@import "variables";
+
+
+.btn {
+    display: flex;
+    border: none;
+    max-width: 30px;
+    max-height: 50px;
+    background-color: transparent;
+    &:focus {
+        outline: none;
+    }
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}
